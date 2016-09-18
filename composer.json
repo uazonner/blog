@@ -1,0 +1,19 @@
+{
+    "name": "alex_k/blog.loc",
+    "description": "My blog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Kobyleha",
+            "email": "uazonner@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blog\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
