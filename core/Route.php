@@ -4,7 +4,7 @@ namespace core;
 class Route
 {
     private $url;
-    private $routs = [];    // Array view: 'path' => ['Controller::method']
+    private $routs = [];    // Array view example: 'path with regexp' => ['Controller::method']
 
     public function __construct()
     {
