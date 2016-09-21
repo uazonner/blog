@@ -1,4 +1,4 @@
 <?php
 ini_set('error_reporting', E_ALL);
 
-require_once __DIR__ . '/app/init.php';
+require_once __DIR__ . '/bootstrap/init.php';

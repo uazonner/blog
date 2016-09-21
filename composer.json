@@ -10,7 +10,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Blog\\": "app/"
+            "app\\": "app/",
+            "core\\": "core/"
         }
     },
     "require": {
